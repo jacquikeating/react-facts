@@ -5,7 +5,7 @@ import "./index.css";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <main>
-      <img src="/react-logo.png" alt="React logo" width="40px" />
+      <img src="/react-logo.png" alt="React logo" className="logo" />
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
